@@ -1,10 +1,8 @@
 import { Singleton } from "./singleton";
 
-describe("Singleton module", () => {
-  test("same instance form Singleton", () => {
-    let instance1 = Singleton.Instance;
-    let instance2 = Singleton.Instance;
+test("same instance from Singleton", () => {
+  let instance1 = Singleton.Instance;
+  let instance2 = Singleton.Instance;
 
-    expect(instance1).toBe(instance2);
-  });
+  expect(instance1).toBe(instance2);
 });
