@@ -4,7 +4,7 @@ this project is my implementation of DesignPatterns using TypeScript
 
 # Patterns
 
-StackEdit stores your files in your browser, which means all your files are automatically saved locally and are accessible **offline!**
+
 
 ## Creational Patterns
 
