@@ -19,5 +19,4 @@ end
 Client2->>Singleton: getInstance()
 Singleton->>+Singleton: Check if instance exists
 Singleton-->>Client2: Return existing instance
-end
-```
+
